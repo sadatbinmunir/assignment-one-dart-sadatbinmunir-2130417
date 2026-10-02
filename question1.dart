@@ -8,10 +8,6 @@
 
 // 1. Create variables of different data types: String, int, double, bool
 // TODO: Add your variables here
-String name = "";
-int age = 0;
-double height = 0.0;
-bool isStudent = false;
 
 String name = "John Doe";
 int age = 25;
