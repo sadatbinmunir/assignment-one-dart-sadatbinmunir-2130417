@@ -13,13 +13,20 @@ int age = 0;
 double height = 0.0;
 bool isStudent = false;
 
+String name = "John Doe";
+int age = 25;
+double height = 5.9;
+bool isStudent = true;
+
 // 2. Write a function called calculateBMI that takes weight (double) and height (double) as parameters and returns the BMI as a double
 // TODO: Implement the calculateBMI function
-double calculateBMI(double weight, double height) {
+//double calculateBMI(double weight, double height) {
   // TODO: Calculate BMI = weight / (height * height)
-  return 0.0;
+//  return 0.0;
+//}
+double calculateBMI(double weight, double height) {
+  return weight / (height * height);
 }
-
 // 3. Write a function called getGrade that takes a score (int) and returns a grade (String) based on:
 //    - 90-100: A
 //    - 80-89: B
